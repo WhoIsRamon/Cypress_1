@@ -1,0 +1,38 @@
+Empieza el curso
+
+1. npm install cypress --save-dev (instalacion cypress)
+2. -node_modules\.bin\cypress open
+
+3- https://testingqarvn.com.es/datos-personales/
+
+npx cypress open
+
+npm install -D cypress-plugin-tab
+npm install --save-dev cypress-file-upload
+
+COMANDOS POR CONSOLA
+para correr por consola y me tire los errores de los programas
+node_modules\.bin\cypress run
+
+para correr todos los archivos desde cypress
+npx cypress run --headed
+
+para correr todos los archivos desde cypress eligiendo el navegador
+npx cypress run --browser chrome
+
+para correr un archivo en especifico:
+npx cypress run --spec "cypress\e2e\seccion_2\Asserts.cy.js"
+
+para correr toda la seccion:
+npx cypress run --spec "cypress\e2e\seccion_1\*"
+
+ARCHIVOS CON ERRORES:
+type enter
+2-advanced-examples/cypress_api
+clicks
+
+Siempre todas los archivos que vamos a cargar o imagenes hay que ponerlos en fixtures
+
+
+PARA CORRER UN ARHIVO EN ESPECIFICO POR EJ:
+npx cypress run --spec "cypress\e2e\seccion_6\PageObject.cy.js
